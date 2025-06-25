@@ -1,0 +1,47 @@
+.container{
+  width:100vw;
+  height:100vh;
+  background-color: #D2E4E1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  flex-direction: column;
+}
+
+.card{
+  width:600px;
+  height:350px;
+  background-color: #fdf3d3;
+  border-radius: 12px;
+  padding:20px;
+}
+
+li{
+  list-style: none;
+  background-color: rgb(174, 182, 188);
+  width:150px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+li:hover{
+  background-color: green;
+  cursor: pointer;
+}
+
+#option{
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.final{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#answer{
+  text-align: center;
+}
