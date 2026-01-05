@@ -9,6 +9,7 @@ function App() {
     "Who is the president of India?",
     "What is the capital of Andhra Pradesh?",
     "What is the capital of Maharastra?",
+    "Who was the founder of the Maratha empire"
   ];
 
   const options = [
@@ -17,9 +18,10 @@ function App() {
     ["Sonia Gandhi", "Narendra Modi", "Pawan Kalyan", "Draupadi Murmu"],
     ["Warangal", "Hyderabad", "Amaravati", "None of the Above"],
     ["Mumbai", "Nagpur", "Pune", "None of the Above"],
+    ["Sambhaji Maharaj", "Shivaji Maharaj", "Bajirao 1", "Rajaram Maharaj",
   ];
 
-  const correctAnswers = ["New Delhi", "Narendra Modi", "Draupadi Murmu", "Amaravati", "Mumbai"];
+  const correctAnswers = ["New Delhi", "Narendra Modi", "Draupadi Murmu", "Amaravati", "Mumbai", "Shivaji Maharaj"];
   const marksPerQuestion = 5;
   const passingMarks = 10;
 
